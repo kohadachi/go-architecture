@@ -1,0 +1,15 @@
+2022-07-27T22:45:38.938600+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.21) initializing of server in progress as process 45
+2022-07-27T22:45:38.940039+09:00 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-07-27T22:45:38.943808+09:00 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2022-07-27T22:45:38.946153+09:00 0 [ERROR] [MY-010119] [Server] Aborting
+2022-07-27T22:45:38.946705+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-07-27T22:46:12.594369+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.21) initializing of server in progress as process 45
+2022-07-27T22:46:12.595849+09:00 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-07-27T22:46:12.597584+09:00 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2022-07-27T22:46:12.599980+09:00 0 [ERROR] [MY-010119] [Server] Aborting
+2022-07-27T22:46:12.600640+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-07-27T22:48:18.079416+09:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.21) initializing of server in progress as process 44
+2022-07-27T22:48:18.081052+09:00 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-07-27T22:48:18.083007+09:00 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2022-07-27T22:48:18.084866+09:00 0 [ERROR] [MY-010119] [Server] Aborting
+2022-07-27T22:48:18.085698+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.

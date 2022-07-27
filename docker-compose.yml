@@ -1,0 +1,28 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/go/src/app
+    links:
+      - db
+    depends_on: 
+      - db
+  db:
+    build: ./docker/mysql
+    environment:
+      TZ: Asia/Tokyo
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: backend
+    ports:
+        - 13306:3306
+    volumes:
+      - todo_db_data:/var/lib/mysql
+
+volumes:
+  todo_db_data:
+    driver: local
